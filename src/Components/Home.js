@@ -41,7 +41,7 @@ const Home = () => {
     }
     setPage(page + 1);
   };
-  
+
   return (
     <>
       <nav className="navbar bg-dark sticky-top">
@@ -67,7 +67,7 @@ const Home = () => {
         <div>
           {contacts.map((element) => {
             return (
-              <div key={element.url}>
+              <div key={element.email}>
                 <Contact
                   first={element.name.first}
                   last={element.name.last}
