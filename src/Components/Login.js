@@ -70,7 +70,7 @@ const Login = () => {
         </form>
       </div>
       <footer>
-                <h4>Built with 💙 by <a className="anchor" href="https://github.com/Vaibhav041/Contact-List">Vaibhav</a></h4>
+                <h4>Built with 💙 by <a className="anchor" href="https://github.com/Vaibhav041/Contact-List" target="_blank">Vaibhav</a></h4>
             </footer>
     </div>
   );
