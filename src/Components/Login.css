@@ -17,5 +17,19 @@
   height: 350px;
   padding: 10px;
   border-radius: 10px;
-  background: whitesmoke;
+  background: #292c2f;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
+
+.anchor {
+  text-decoration: none;
+  color: #212529;
+}
+.anchor:hover {
+  color: #15171a;
+  cursor: pointer;
 }

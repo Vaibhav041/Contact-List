@@ -38,9 +38,9 @@ const Login = () => {
     <div className="main">
       <div className="form">
         <form>
-          <h1>Log In</h1>
+          <h1 style={{"color":'white'}}>Log In</h1>
           <div className="form-group">
-            <label htmlFor="exampleInputEmail1">Name</label>
+            <label htmlFor="exampleInputEmail1" style={{"color":'white'}}>Name</label>
             <input
               type="text"
               className="form-control"
@@ -51,7 +51,7 @@ const Login = () => {
             />
           </div>
           <div className="form-group mt-2">
-            <label htmlFor="exampleInputPassword1">Password</label>
+            <label htmlFor="exampleInputPassword1" style={{"color":'white'}}>Password</label>
             <input
               type="text"
               className="form-control"
@@ -69,6 +69,9 @@ const Login = () => {
           </button>
         </form>
       </div>
+      <footer>
+                <h4>Built with 💙 by <a className="anchor" href="https://github.com/Vaibhav041/Contact-List">Vaibhav</a></h4>
+            </footer>
     </div>
   );
 };

@@ -72,6 +72,9 @@ const Home = () => {
                   first={element.name.first}
                   last={element.name.last}
                   imgUrl={element.picture.thumbnail}
+                  email={element.email}
+                  phone={element.phone}
+                  cell={element.cell}
                 />
               </div>
             );
@@ -83,3 +86,5 @@ const Home = () => {
 };
 
 export default Home;
+
+{/* <NavLink to="/" className='createNewBtn' >Register</NavLink> */}
